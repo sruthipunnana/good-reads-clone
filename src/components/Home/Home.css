@@ -1,0 +1,20 @@
+.books-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+   
+}
+
+.popular-books-title{
+    color:#ffbb00;
+    text-align:center;
+    padding:0.9em;
+
+}
+
+.heading-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right:1em;
+}
