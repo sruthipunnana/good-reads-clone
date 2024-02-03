@@ -10,13 +10,12 @@ export const Register = () => {
         email:'',
         password:'',
         confirmPassword:''
-
     })
 
 
 
     const {currentUser}= useSelector((state)=>state.user)
-    const error= useSelector((state)=>state.user.error)
+    const {error}= useSelector((state)=>state.user)
     console.log(error)
 
     const dispatch= useDispatch()

@@ -21,8 +21,8 @@ const allGenres = [
 export const Genres=() =>{
   const dispatch = useDispatch();
   const selectedGenres = useSelector((state) => state.genres.selectedGenres);
+  console.log(selectedGenres)
   const books = useSelector((state) => state.books.books);
-
 
   const handleCheckboxChange = (event) => {
     const { value, checked } = event.target;

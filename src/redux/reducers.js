@@ -85,7 +85,6 @@ export const popularBooksReducer = (state = initialState, action) => {
   };
 
 //   genre books 
-
 export const genresReducer = (state = initialState, action) => {
     switch (action.type) {
       case types.SET_SELECTED_GENRES:
@@ -111,7 +110,7 @@ export const genresReducer = (state = initialState, action) => {
     }
   };
 
-  // cart reudcer 
+  // cart reducer 
   export const cartReducer = (state = initialState, action) => {
     switch (action.type) {
       case types.ADD_TO_CART:

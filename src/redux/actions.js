@@ -115,7 +115,7 @@ export const registerInitiate = (email, password, displayName) => {
   
       // Initiating user login with Firebase
       signOut(auth)
-        .then((response) => 
+        .then(() => 
           dispatch(logoutSuccess())// Dispatch success action after successful login
         )
         .catch(error => {
@@ -169,7 +169,8 @@ export const setBooks = (books) => ({
   payload: books,
 });
 
-export const fetchBooksByGenres = (selectedGenres) => (dispatch) => {
+export const fetchBooksByGenres = (selectedGenres) => 
+   (dispatch) => {
   const API_KEY = apiKey;
   const genresQuery = selectedGenres.join('+subject:');
   const endpoint = `https://www.googleapis.com/books/v1/volumes?q=subject:${genresQuery}&key=${API_KEY}&maxResults=10`;

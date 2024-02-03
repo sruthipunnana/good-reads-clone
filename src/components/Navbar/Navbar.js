@@ -6,8 +6,6 @@ import { logoutInitiate } from '../../redux/actions'
 
 export const Navbar = () => {
 
- 
-
   const dispatch= useDispatch()
   const {currentUser} = useSelector((state)=>state.user)
   const cart = useSelector((state)=>state.cart.cartItems)
@@ -15,7 +13,6 @@ export const Navbar = () => {
 
   
   const onClickLogout=()=>{
-    console.log('click')
      if (currentUser){
        dispatch(logoutInitiate())
      }
