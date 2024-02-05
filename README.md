@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # online-book-store
 Developed End-to-End Online Book Store where user can register, login, and buy books. Used Redux state library, Firebase.
 >>>>>>> f3a97e539197059e0285533fc862aacb36d82bbb
+=======
+# good-reads-clone
+Developed End-to-End Good-Reads where user can register, login, and buy books. Used Redux state library, Firebase.
+>>>>>>> 8d3753b5a19ed4a192d467aa976188ae1b5dd644
